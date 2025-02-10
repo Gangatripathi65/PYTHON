@@ -1,0 +1,10 @@
+a=float(input("Enter the cost of 1st item"))
+b=float(input("Enter the cost of 2nd item"))
+c=float(input("Enter the cost of 3rd item"))
+total_cost=a+b+c
+print(f"The total cost before discount={total_cost}")
+if total_cost>50:
+  e=total_cost-(0.1*total_cost)
+  print(f"The cost after discount is ={e}")
+else:
+  print("Discount not available")
